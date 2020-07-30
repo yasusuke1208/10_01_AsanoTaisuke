@@ -10,9 +10,9 @@ check_session_id();
 
 require_once('TwitterAppOAuth.php');
 // Consumer Key (API Key) を設定
-$consumer_key = '9kV6txE4t2JTmFE8EZB9WoscW';
+$consumer_key = '';
 // Consumer Secret (API Secret) を設定
-$consumer_secret = 'Z5L4YYr6eatGUwpjmGRdEz8dV8jaCsv9FNklFEb8XLr8OUOTWW';
+$consumer_secret = '';
 // アプリケーション認証実行
 $connection = new TwitterAppOAuth($consumer_key, $consumer_secret);
 // ツイート検索パラメータの設定、「q」は検索文字列
