@@ -1,0 +1,38 @@
+@for $i from 1 through 5 {
+  .fs#{$i * 1000} {
+    font-size:#{$i * 4}px;
+  }}
+
+@for $i from 6 through 9 {
+  .fs#{$i * 1000} {
+    font-size:28px;
+  }}
+
+@for $i from 10 through 19 {
+  .fs#{$i * 1000} {
+    font-size:32px;
+  }}
+
+@for $i from 20 through 29 {
+  .fs#{$i * 1000} {
+    font-size:36px;
+    }}
+
+@for $i from 30 through 39 {
+  .fs#{$i * 1000} {
+    font-size:40px;
+  }}
+
+@for $i from 40 through 49 {
+    .fs#{$i * 1000} {
+    font-size:44px;
+  }}
+
+@for $i from 40 through 49 {
+  .fs#{$i * 1000} {
+    font-size:48px;
+  }}
+
+.fs50000 {
+  font-size: 52px;
+}
